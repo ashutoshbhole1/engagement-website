@@ -29,7 +29,7 @@ body {
 .heart-cont {
 
     
-    display: none; /*flx change*/
+    display: flex; /*flx change*/
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -108,7 +108,7 @@ body {
     width: 100%;
     text-align: center;
     padding: 1rem;
-    display: flex;
+    display: none;
     /* justify-content: center; */
     align-items: center;
     gap: 1rem;
