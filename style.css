@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Quicksand:wght@300..700&display=swap'); */
+
+.quicksand {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+}
+
+body {
+    background: linear-gradient(#d5e6fc, #8baad2);
+    min-height: 100vh;
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.heart-cont {
+
+    
+    display: none; /*flx change*/
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(red, rgb(98, 2, 2));
+    gap: 2rem;
+    color: #fff;
+    padding: 0 1rem;
+}
+
+.heart-cont h1 {
+    font-size: 1.8rem;
+    font-family: "Dancing Script";
+    font-weight: 500;
+}
+
+.heart-cont .heart {
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+}
+
+.heart-cont .heart img {
+    height: 10rem;
+    animation: heartbeat 2s infinite linear;
+    filter: drop-shadow(0 10px 35px rgb(255, 70, 70));
+}
+
+.heart-cont .heart .heart-txt {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    font-size: 1.5rem;
+    opacity: .8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 10%;
+    z-index: 9;
+    font-family: Dancing Script;
+    animation: heartbeat 2s infinite linear;
+}
+
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(.85);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+
+    40% {
+        transform: scale(.85);
+    }
+
+    60% {
+        transform: scale(1);
+    }
+
+    80% {
+        transform: scale(.85);
+    }
+
+    100% {
+        transform: scale(.85);
+    }
+}
+
+
+.video-cont{
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+
+.video-cont h1{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 400;
+    color: #0959c2;
+    font-family: Quicksand;
+}
+.video-cont h1 span.engaged{
+    font-weight: 700;
+    font-family: Dancing Script;
+}
+.video-cont h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: Dancing Script;
+    color: #3d65f7;
+}
+
+.video-cont video{
+    width: clamp(240px,80%,450px);
+    height: 70%;
+    border-radius: .6rem;
+    box-shadow: 0 0 55px #21a2ff6f;
+}
+
+
+.cta{
+    display: flex;
+    flex-direction: column;
+    grid-area: .3rem;
+    width: 100%;
+    /* background-color: #0959c2; */
+}
+.cta p{
+    /* font-family: Dancing Script; */
+    /* font-size: 1.4rem; */
+    font-family: Quicksand;
+    font-weight: 600;
+    color: #024194;
+}
+
+.cta-btns{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: center;
+    height: fit-content;
+    padding: .5rem .2rem;
+    /* background-color: #0959c2; */
+}
+
+.cta-btns button{
+    color: #fff;
+    background:linear-gradient(#3b79fd,#0a4bc3) ;
+    padding: .5rem .8rem;
+    border-radius: 2rem;
+    min-width: 5rem;
+    box-shadow: 0 0 20px #5aa1ed;
+    border: 1px solid #a7d1fd;
+}
+
+.cta-btns button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: .7rem;
+    letter-spacing: .7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
