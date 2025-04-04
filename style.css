@@ -43,7 +43,8 @@ body {
 }
 
 .heart-cont h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
+    text-align: center;
     font-family: "Dancing Script";
     font-weight: 500;
 }
@@ -151,10 +152,11 @@ body {
 }
 .cta p{
     /* font-family: Dancing Script; */
-    /* font-size: 1.4rem; */
+    font-size: 1.1rem;
     font-family: Quicksand;
-    font-weight: 600;
+    font-weight: 500;
     color: #024194;
+    margin: .6rem 0 .5rem;
 }
 
 .cta-btns{
@@ -170,7 +172,7 @@ body {
 .cta-btns button{
     color: #fff;
     background:linear-gradient(#3b79fd,#0a4bc3) ;
-    padding: .5rem .8rem;
+    padding: .8rem 1.2rem;
     border-radius: 2rem;
     min-width: 5rem;
     box-shadow: 0 0 20px #5aa1ed;
@@ -180,8 +182,9 @@ body {
 .cta-btns button a{
     color: #fff;
     text-decoration: none;
-    font-size: .7rem;
+    font-size: 1rem;
     letter-spacing: .7px;
+    font-weight: 300;
 }
 
 
